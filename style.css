@@ -1,0 +1,210 @@
+
+/*#main{
+    width: 100%;
+    height: 700px;
+}
+button{
+    background-color: #ffb4c9;
+    font-family: Bellerose light;
+    font-size: 20px;
+    border: none;
+    padding: 3px 8px 15px 8px;
+    text-decoration: none;
+    border-radius: 12px;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+div img{
+    width: 100%;
+}*/
+
+.estiloFooter{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly;
+    font-family: Bellerose light;
+    background-color: rgb(197, 166, 127, 30%);
+    font-size: 18px;
+    border-radius: 15px;
+    list-style: none;
+
+}
+
+/*section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: Bellerose light;
+    font-size: 18px
+    
+    
+}
+.tablaMenu{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: rgb(197, 166, 127, 45%);
+    font-family: Bellerose light;
+    font-size: 25px;
+    list-style: none; 
+    border-radius: 15px;   
+}
+section img{
+    height: stretch;
+    width: 90%;
+    padding: 10px;
+    align-items: center;
+    
+}*/
+header{
+    grid-area: header;
+}
+.imagenLogo{
+    grid-area: logo;
+}
+.tarjetas{
+    grid-area: tarjetas;
+}
+
+.estiloFooter{
+    grid-area: footer;
+}
+#main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto ;
+    grid-template-areas:  "header" "logo" "tarjetas" "footer";
+}
+.volver{
+    grid-area: volver;
+}
+.tituloEspacio{
+    grid-area: tituloEspacio;
+}
+.parrafoSecundario{
+    grid-area: parrafoSecundario;
+}
+.googleMap{
+    grid-area: mapa
+}
+.imagenesEspacio{
+    grid-area: imagenesEspacio;
+}
+.footerEspacio{
+    grid-area: footerEspacio;
+}
+
+li{
+    font-family: Bellerose light;
+    font-size: x-large;
+    
+}
+
+.card-body{
+    font-family: Bellerose light;
+
+}
+
+#Espacio{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 10% 10% auto auto 15%;
+    grid-template-areas: "volver volver" 
+     "tituloEspacio tituloEspacio"
+     "imagenesEspacio parrafoSecundario"
+     "imagenesEspacio mapa"
+     "footerEspacio footerEspacio";
+     row-gap: 10px;
+     column-gap: 10px;
+     width: 100%;
+     height: 700px;
+}
+.imagenesEspacio {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px; 
+    padding: 5px;
+    width: 400px;
+    height: 300px;  
+}
+
+
+
+.parrafoSecundario{
+    display: flex;
+    background-color: rgb(242, 226, 220, 60%);
+    margin: 15px;
+    padding: 35px;
+    font-family: Bellerose light;
+    font-size: 20px;
+    color: #606060;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tituloEspacio {
+    display: flex;
+    font-family: Bellerose light;
+    font-size: 35px;
+    color: #606060;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div iframe{
+    display: flex;
+    height: 200px;
+    width: 1100px;
+    padding: 10px;
+}
+
+span{
+    padding-left: 2em;
+    grid-area: formulario;
+}
+p{
+    grid-area: texto;
+}
+form{
+    display: flex ;
+    padding: 20px;
+}
+.titulo{
+    font-family: Bellerose light;
+}
+
+
+#columnasContacto{
+    display: grid;
+    padding: 25px;
+    grid-template-columns: 45% auto;
+    grid-template-areas: "formulario texto";
+   
+}
+#parrafoConsulta{
+    font-size: x-large;
+    text-align: center;
+   
+}
+
+.card-deck{
+    padding: 45px;
+}
+
+.contenedorHistoria{
+    align-content: flex;
+    display: inline-flex;
+    padding: 25px;
+    
+}
+
+
+
+
+
